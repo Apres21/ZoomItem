@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "zoomitem",
+	"version": "${version}",
+	"name": "ZoomItem",
+	"description": "A small client mod that increases the display of items when hovering over slots in the inventory and other GUIs.",
+	"authors": [
+		"Apres"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod",
+      "issues": ""
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/zoomitem/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.apres.zoom_item.ZoomItem"
+		],
+      "client": [
+        "net.apres.zoom_item.ZoomItemClient"
+      ]
+	},
+	"mixins": [
+		"zoomitem.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
