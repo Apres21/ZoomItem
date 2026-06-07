@@ -8,9 +8,9 @@
 		"Apres"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod",
-      "issues": ""
+		"homepage": "https://github.com/Apres21/ZoomItem",
+		"sources": "https://github.com/Apres21/ZoomItem",
+      "issues": "https://github.com/Apres21/ZoomItem/issues"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/zoomitem/icon.png",
