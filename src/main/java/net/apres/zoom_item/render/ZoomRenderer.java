@@ -1,5 +1,6 @@
 package net.apres.zoom_item.render;
 
+import net.apres.zoom_item.ZoomItem;
 import net.apres.zoom_item.mixin.HandledScreenAccessor;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.DrawContext;
@@ -14,6 +15,10 @@ public class ZoomRenderer {
     private static int lastScreenHeight = 0;
 
     public static void render(DrawContext context, int mouseX, int mouseY) {
+        if (!ZoomItem.isEnabled()) {
+            return;
+        }
+
         MinecraftClient client = MinecraftClient.getInstance();
 
         if (!(client.currentScreen instanceof HandledScreen<?> screen)) {

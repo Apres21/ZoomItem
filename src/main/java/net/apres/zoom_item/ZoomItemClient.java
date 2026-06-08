@@ -6,5 +6,6 @@ public class ZoomItemClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         ZoomItem.LOGGER.info("ZoomItem Client initialized!");
+        ZoomItemKeyBindings.register();
     }
 }

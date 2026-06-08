@@ -1,0 +1,29 @@
+{
+  "key.zoomitem.toggle": "Переключить ZoomItem",
+  "category.zoomitem": "ZoomItem",
+
+  "zoomitem.screen.title": "Настройки ZoomItem",
+  "zoomitem.screen.enabled": "Мод включён",
+  "zoomitem.screen.done": "Готово",
+  "zoomitem.screen.reset": "Сбросить на Z",
+  "zoomitem.screen.cancel": "Отмена",
+  "zoomitem.screen.current_key": "Текущая клавиша: %s",
+  "zoomitem.screen.click_to_change": "Нажмите здесь, чтобы изменить",
+
+  "zoomitem.message.enabled": "ZoomItem §aВКЛЮЧЁН",
+  "zoomitem.message.disabled": "ZoomItem §cВЫКЛЮЧЕН",
+
+  "zoomitem.tooltip.enabled": "Мод сейчас включён",
+  "zoomitem.tooltip.disabled": "Мод сейчас выключен",
+  "zoomitem.tooltip.click_to_toggle": "Нажмите, чтобы переключить мод",
+  "zoomitem.tooltip.click_to_change_key": "Нажмите, чтобы изменить клавишу",
+
+  "zoomitem.config.title": "Конфигурация ZoomItem",
+  "zoomitem.config.general": "Основные настройки",
+  "zoomitem.config.hotkey": "Настройки горячих клавиш",
+  "zoomitem.config.hotkey_description": "Нажмите любую клавишу, чтобы назначить новую",
+
+  "zoomitem.screen.toggle_key": "Клавиша переключения",
+  "zoomitem.screen.press_key": "Нажмите любую клавишу...",
+  "zoomitem.screen.key_used": "⚠ Эта клавиша уже используется"
+}

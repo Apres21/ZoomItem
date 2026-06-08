@@ -8,11 +8,11 @@
 		"Apres"
 	],
 	"contact": {
-		"homepage": "https://github.com/Apres21/ZoomItem",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/zoom-item",
 		"sources": "https://github.com/Apres21/ZoomItem",
       "issues": "https://github.com/Apres21/ZoomItem/issues"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/zoomitem/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -21,6 +21,9 @@
 		],
       "client": [
         "net.apres.zoom_item.ZoomItemClient"
+      ],
+      "modmenu": [
+        "net.apres.zoom_item.ZoomItemModMenuIntegration"
       ]
 	},
 	"mixins": [
@@ -30,6 +33,7 @@
 		"fabricloader": ">=0.19.3",
 		"minecraft": "~1.20.1",
 		"java": ">=17",
-		"fabric-api": "*"
+		"fabric-api": "*",
+      "modmenu": ">=5.0.0"
 	}
 }

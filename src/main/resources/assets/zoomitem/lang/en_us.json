@@ -1,0 +1,29 @@
+{
+  "key.zoomitem.toggle": "Toggle ZoomItem",
+  "category.zoomitem": "ZoomItem",
+
+  "zoomitem.screen.title": "ZoomItem Settings",
+  "zoomitem.screen.enabled": "Mod Enabled",
+  "zoomitem.screen.done": "Done",
+  "zoomitem.screen.reset": "Reset to Z",
+  "zoomitem.screen.cancel": "Cancel",
+  "zoomitem.screen.current_key": "Current key: %s",
+  "zoomitem.screen.click_to_change": "Click here to change",
+
+  "zoomitem.message.enabled": "ZoomItem §aON",
+  "zoomitem.message.disabled": "ZoomItem §cOFF",
+
+  "zoomitem.tooltip.enabled": "Mod is currently enabled",
+  "zoomitem.tooltip.disabled": "Mod is currently disabled",
+  "zoomitem.tooltip.click_to_toggle": "Click to toggle mod",
+  "zoomitem.tooltip.click_to_change_key": "Click to change key binding",
+
+  "zoomitem.config.title": "ZoomItem Configuration",
+  "zoomitem.config.general": "General Settings",
+  "zoomitem.config.hotkey": "Hotkey Settings",
+  "zoomitem.config.hotkey_description": "Press any key to set new hotkey",
+
+  "zoomitem.screen.toggle_key": "Toggle Key",
+  "zoomitem.screen.press_key": "Press any key...",
+  "zoomitem.screen.key_used": "⚠ This key is already in use"
+}
